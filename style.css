@@ -49,6 +49,13 @@ h2 {
   left: -41px;
 }
 
+.container01 {
+  width: 400px;       /* ajusta conforme o conteúdo / largura desejada */
+  margin: 0 auto;     /* centra horizontalmente */
+  position: relative; /* mantém o fluxo normal (não usa absolute) */
+  left: 0;            /* garante que não haja deslocamentos */
+}
+
 .show-more:hover .show-more-content {
   display: block;
   position: absolute;
