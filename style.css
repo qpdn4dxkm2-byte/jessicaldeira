@@ -37,12 +37,10 @@ h2 {
 
 
 .center-column {
-  display:block;
-  width: 400px;
+  max-width: 450px;     /* controla a largura */
+  margin: 0 auto;        /* centra o bloco */
   position: relative;
   top: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .container00 {
